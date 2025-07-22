@@ -1065,16 +1065,18 @@ svg.swiper-arrow {
 
 .agy-banner-wrapper {
     position: relative;
-    background-color: var(--agency-secondary-color);
+    background-image: url('../images/background-home-3.jpg'); /* Cambia esta ruta a la imagen correcta */
+    background-size: cover; /* Ajusta la imagen al tamaño del contenedor */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita que se repita */
     width: 100%;
     overflow: hidden;
-    padding: 76px 0 70px;
-    padding-bottom: 150px;
+    padding: 76px 0 150px;
 }
 .agy-banner-wrapper:before {
     content: "";
     position: absolute;
-    background-image: url(../images/banner-bg.png);
+    background-image: url(../images/banner-bg-2.png);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: bottom center;
